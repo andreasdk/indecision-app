@@ -53,6 +53,6 @@ const me = new Traveller('Andrew Kennedy', 29, 'Dublin');
 console.log(me.getGreeting());
 
 
-const other = new Student();
-console.log(other.getDescription());
+const other = new Traveller();
+console.log(other.getGreeting());
 
